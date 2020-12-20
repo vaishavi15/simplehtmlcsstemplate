@@ -1,0 +1,83 @@
+body
+{
+	background: url(q.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	font-family: all;
+}
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+.menu
+{
+	background-color:rgba(129,25,209,0.4);
+	text-align:center;
+}
+.menu ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #123;
+}
+.menu ul li
+{
+	width: 120px;
+	margin:15px;
+	padding:15px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color:white;
+}
+.active,.menu ul li a:hover
+{
+   background-color:rgba(10, 240, 228,0.4); 
+   border-radius:3px;
+}
+.menu .fa
+{
+	margin-right: 8px;
+
+}
+.sub1
+{
+	display: none;
+}
+.menu ul li:hover .sub1
+{
+	display: block;
+	position: absolute;
+	background: rgba(10,240,228,0.4);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu ul li:hover .sub1 ul
+{
+	display:block;
+	margin:10px;
+}
+.menu ul li:hover .sub1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu ul li:hover .sub1 ul li:last-child
+{
+   border-bottom: none;
+}
+.menu ul li:hover .sub1 ul li a:hover
+{
+	color: #151717;
+}
+
+
+
+

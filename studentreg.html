@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    </head>
+<body>
+	
+</head>
+<link rel="stylesheet" type="text/css" href="studentreg.css">
+	<form>
+		<h2>Student Registration Details</h2>
+		<p><label for="Name">Name:</label>
+		<input id="Firstname" type="text" placeholder="Riya" required></p>
+		<p> 
+		<div>
+		<label for="Gender">Gender:</label>
+		<label for="male">Male</label>
+		<input id="male" type="radio" name="genchoice" value="male">
+		<label for="female">Female</label>
+		<input id="female" type="radio" name="genchoice" value="female">
+		<label for="other">Other</label>
+		<input id="other" type="radio" name="genchoice" value="other">
+	    </div></p>
+		<p><label>
+			Email:
+		<input name="email" type="email" placeholder="your email" required>
+		</label></p>
+		<p><label for="Phone number">Phone number:</label>
+		<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></p>
+        <p>
+	    </div>
+	    <p><label for="Qualification">Qualification:</label>
+		<input id="Qualification" type="text" placeholder="" required></p>
+		<p><label for="city">City:</label>
+		<input id="city" type="text" placeholder="chennai" required></p>
+        <p><label>
+			<strong>Password:</strong>
+		<input name="password" type="password" pattern= " .{2,10}t" required title="password must be between 5 and 10 characters">
+		</label></p>
+		<button type="register" class="button" value="register">Register</button>
+	</form>
+
+</body>
+</html>

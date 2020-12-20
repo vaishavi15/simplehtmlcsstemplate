@@ -1,0 +1,72 @@
+body
+{
+	background: url(studreg.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+}
+h2
+{
+	
+	background-size:auto;
+	padding: 4px;
+	color: black;
+	background-size: 300px 100px;
+	font-size:xx-large;
+	font-weight: bold;
+	
+}
+label {
+  background-color: rgba(0,0,255,0.4);
+  color: black;
+  font-weight: bolder;
+  padding: 4px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+.button
+{
+  background: rgba(0,0,255,0.4);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a
+{
+	color: black;
+}
+input
+{
+	border:5px solid rgba(0,10,100,0.4);;
+}
